@@ -20,7 +20,7 @@ hr{
   border-color: rgb(148, 176, 148);
 }
 
-.sidebar {
+/* .sidebar {
     height: 100%;
     width: 200px;
     position: fixed;
@@ -31,7 +31,7 @@ hr{
     height: auto;
    border-radius: 15%;
    display: block;
-}
+} */
 
 a{
     color:rgb(67, 80, 65);
