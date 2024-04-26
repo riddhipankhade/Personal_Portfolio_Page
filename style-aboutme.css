@@ -8,14 +8,25 @@ body{
     padding: 0%;
 }
 
-h1,h2,h3{
+h2,h3{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     color: rgb(77, 91, 77);
     margin-top: 25px;
     margin-bottom: 25px;
     padding: 0%;
+    border-radius: 5%;
+    box-shadow: 2px 2px 10px grey;
     
+}
+
+#about-me{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(77, 91, 77);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 0%;
 }
 
 hr{
@@ -74,6 +85,8 @@ p{
  border-style: none;
  margin: 2%;
  background-image: url(https://i.pinimg.com/236x/e9/00/43/e90043c497609dea79523d228ac71aa6.jpg);
+ /* border-radius: 5%;
+ box-shadow: 2px 2px 10px grey; */
 }
 
 img{
@@ -82,6 +95,9 @@ img{
   width: auto;
   margin: auto;
   text-align: center;
+  border-radius: 100%;
+  box-shadow: 15px 15px 25px rgb(47, 57, 53);
+  /* box-shadow: horizontal-offset vertical-offset blur-radius color; */
 }
 
 
@@ -95,6 +111,7 @@ img{
   margin-bottom: 50px;
   padding: 20px;
   max-width: 900px;
+
 }
 
 /* #footer{
